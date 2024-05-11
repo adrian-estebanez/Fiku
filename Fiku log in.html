@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiku</title>
+    <style>
+        html {
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: linear-gradient(45deg, #ffae00, #ff47d1); /* Fondo degradado cálido */
+            color: #000000;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex-grow: 1;
+            max-width: 700px;
+            margin: 2em auto;
+            padding: 1em;
+            background: none; /* Elimina el fondo degradado en main */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background:linear-gradient(45deg, #ffae00, #ff47d1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px linear-gradient(45deg, #ffae00, #ff47d1);
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #bd7c04;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button {
+            background-color: #bd7c04;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bienvenido a Fiku</h1>
+    </header>
+
+    <main>
+       <link>
+
+        <h2>Iniciar Sesión</h2>
+        <form>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <button type="submit">Iniciar Sesión</button>
+            <a href="Sing in/Creacion de usuario.html"><button type="button" onclick="Crear()">Crear cuanta</button></a>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fiku. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
+
+
+
